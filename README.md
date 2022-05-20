@@ -1,4 +1,4 @@
-# kikicomi-prototype-front_end_server
+# Nextjs-template
 
 ## 概要
 "kikicomi"のフロントエンドサーバー
