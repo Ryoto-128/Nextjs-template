@@ -1,8 +1,5 @@
 # Nextjs-template
 
-## 概要
-"kikicomi"のフロントエンドサーバー
-
 ## 必要要件
 - Docker
 - Docker-compose
