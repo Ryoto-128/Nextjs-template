@@ -1,4 +1,4 @@
-# Nextjs-template
+# Nextjs-template(kikicomi版)
 
 ## 必要要件
 - Docker
