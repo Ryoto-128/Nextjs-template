@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nextjs:
+    container_name: ${NEXTJS_CONTAINER_NAME}
+    build:
+      context: .
+      dockerfile: ./build/nextjs/Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src/nextjs/project:/usr/src/project
+    networks:
+      - default
+    command: bash -c "cd ${NEXTJS_PROJECT_NAME} && npm run ${NEXTJS_EXEC_TYPE}"
